@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="my-3" fxLayout="row wrap" fxLayoutGap="1rem">
+    <button mat-raised-button color="primary" [routerLink]="['/']">Home</button>
+    <button mat-raised-button color="primary" [routerLink]="['/','basic-line-echarts']">Line chart</button>
+    <button mat-raised-button color="primary">Next</button>
+  </div>
+  <hr/>
+
+  <router-outlet></router-outlet>
+  
+</div> 
